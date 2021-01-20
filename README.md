@@ -1,6 +1,6 @@
-# Desafio Desenvolvedor Full Stack Júnior
+# Desafio Desenvolvedor Full Stack
 
-Bem vindo ao desafio para Desenvolvedor Full Stack Júnior.
+Bem vindo ao desafio para Desenvolvedor Full Stack.
 
 ## Quem somos
 
