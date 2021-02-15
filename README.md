@@ -50,7 +50,7 @@ E por último você deve rodar o cliente localizado na pasta client:
 npm start
 ```
 
-## Built With
+## Construído com
 
 * [Node.js](https://nodejs.org/en/)
 * [Express.js](https://expressjs.com/)
