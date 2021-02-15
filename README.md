@@ -1,62 +1,58 @@
-# Desafio Desenvolvedor Full Stack
+# Calculadora de investimentos
 
-Bem vindo ao desafio para Desenvolvedor Full Stack.
+Calculadora financeira é uma aplicação construída em Node.js, Postgres e React.js, que recebe algumas informações de entrada e calcula o rendimento dos investimentos poupança e CDB.
 
-## Quem somos
+Este projeto é constituido por um servidor, que realiza os calculos e salva os valores e resultados obtidos dos calculos, e um cliente que funciona como a entrada dos dados e visualização dos resultados.
 
-Somos um dos maiores escritórios de Assessoria de Investimentos com presença em 11 cidades no Brasil e 11 anos de história no Mercado Financeiro.
+### Pré-requisitos
 
-Você fará parte da equipe de Engenharia de Software, tendo a oportunidade de construir soluções e ferramentas financeiras que simplifiquem a experiência dos nossos clientes no mercado de investimentos.
+Você precisa ter instalado:
+* Node.js
+* Postgres
+* Git
 
-Somos uma empresa em crescimento, então aqui o aprendizado é constante.
+### Instalação
 
-## Apresentação do problema
+Primeiramente você realizará o clone deste projeto para seu ambiente:
 
-Seu objetivo é desenvolver um Simulador de Investimentos para calcular a rentabilidade dos investimentos. Deverá apresentar uma interface que possibilite ao investidor realizar uma simulação e comparação entre os investimentos CDB e Poupança e destacar o investimento com maior rentabilidade. Para realizar a simulação, o investidor deverá fornecer seus dados de contato e responder algumas perguntas para que um resultado detalhado da simulação seja apresentado. Os dados do usuário e da simulação deverão ser armazenados em um banco de dados e o investidor após realizar a simulação poderá visualizar todas as simulações realizadas.
+```bash
+git clone https://github.com/rfaelmarini/desafio-desenvolvedor-fullstack.git
+```
 
-**Os seguintes dados do investidor deverão ser informados**
+Em seguida você deve realizar a instalação das dependências dos projetos, servidor e cliente.
+Na pasta server:
+```bash
+cd server/
+```
 
-- Nome
-- E-mail
-- Telefone
+```bash
+npm install
+```
 
-**As seguintes perguntas deverão ser respondidas**
+Na pasta client:
+```bash
+cd client/
+```
 
-- Quanto você quer investir hoje?
-- Por quanto tempo você pretende deixar o seu dinheiro investido?
+```bash
+npm install
+```
 
-**Estes são os parâmetros de referência**
+Em seguida você deve rodar o servidor localizado na pasta server:
 
-- Taxa do CDI
-- Taxa da Poupança
-- Rentabilidade de um CDB pós com x% do CDI
+```bash
+node index.js
+```
 
-## O que iremos avaliar
+E por último você deve rodar o cliente localizado na pasta client:
 
-- Planejamento do projeto
-- Usabilidade
-- Criatividade
-- Código limpo e organização
-- Documentação de código
-- Documentação do projeto (readme)
-- Performance
+```bash
+npm start
+```
 
-## Não é necessário, mas seria ótimo
+## Built With
 
-- React para o front-end
-- Node.js ou Python para o back-end
-- SQL Server ou PostgreSQL para banco de dados
-- Testes
-- Docker
-- CI/CD
-- Deploy da aplicação na nuvem (Azure, AWS, GCP)
-
-## Entregando o desafio
-
-- Faça um fork/clone deste repositório para sua conta (Github, Gitlab ou Bitbucket)
-- No README do projeto deve ter instruções de como executar e acessar o projeto
-- Envie o link do projeto para o e-mail tech@euqueroinvestir.com
-
-## Dúvidas ou sugestões?
-
-Fique à vontade para perguntar qualquer dúvida que você tiver. Estamos sempre em busca de melhoria, por isso, caso tenha alguma sugestão fique a vontade pra compartilhar com a gente! Boa sorte.
+* [Node.js](https://nodejs.org/en/)
+* [Express.js](https://expressjs.com/)
+* [React.js](https://reactjs.org/)
+* [Postgres](https://www.postgresql.org/)
