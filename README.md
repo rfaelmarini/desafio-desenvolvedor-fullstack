@@ -38,7 +38,9 @@ cd client/
 npm install
 ```
 
-Em seguida você deve rodar o servidor localizado na pasta server:
+Agora você deve criar o banco de dados e as tabelas lá no Postgres, os comandos SQL estão no arquivo database.sql dentro da pasta server.
+
+Após isto você deve rodar o servidor localizado na pasta server:
 
 ```bash
 node index.js
